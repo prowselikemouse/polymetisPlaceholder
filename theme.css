@@ -1,0 +1,502 @@
+ @font-face {
+  font-family: "gotham-light";
+  font-style: normal;
+  font-weight: normal;
+  src: url("gotham-light.eot.eot?#iefix") format("embedded-opentype"), url("gotham-light.eot.woff2") format("woff2"), url("gotham-light.eot.woff") format("woff"), url("gotham-light.eot.ttf") format("truetype"), url("gotham-light.eot.svg#gotham-light") format("svg");
+}
+
+body {
+    background-color:#292e63;
+    width:100%;
+    margin:0;
+    padding:0;
+  }
+
+.dots {
+  	width: 100%;
+  	margin-top: 0.8%;
+    margin-bottom:0;
+  	padding: 0;
+  }
+
+.circle {
+  	border-radius: 51%;
+    width: 100%;
+    padding-bottom: 100%;
+  	margin-top:24%;
+  	margin-bottom:24%;
+    z-index:2;
+  }
+
+.circle:hover {
+	background-color:#ffffff;
+  cursor:default;
+}
+
+
+
+.white {
+  	background-color:#ffffff;
+
+  }
+
+.white:hover {
+  background-color:#6795bf;
+}
+
+.lb {
+  	background-color:#6795bf;
+
+
+  }
+
+.blue {
+  	background-color:#3053a0;
+  }
+
+.pink {
+  	background-color:#901b72;
+  	}
+
+.gold {
+	background-color:#a37c17;
+  	}
+
+.black {
+  	background-color:#000000;
+  	}
+
+.clear {
+    width: 100%;
+    padding-bottom: 100%;
+    margin-top:22%;
+    margin-bottom:22%;
+  }
+
+#metisman {
+    margin-top:-400%;
+    padding-bottom:18%;
+    padding-left:2%;
+    max-width:101%;
+  }
+
+#metisman:hover {
+    cursor:pointer !important;
+  }
+
+#construction {
+  font-family: "Gotham A" "Gotham B";
+  font-style: normal;
+  font-weight: normal;
+  font-size:8.2vw;
+  letter-spacing:0.06vw;
+  color:#fff;
+  margin-left:-10%;
+  margin-top:-39%;
+  padding:0;
+  white-space:nowrap;
+  display:block;
+
+
+}
+
+#meantime {
+  /*font-family: "Sentinel SSm A", "Sentinel SSm B";
+  font-family:  "Mercury SSm A", "Mercury SSm B";*/
+  font-family: ".tk-garamond-premier-pro-display";
+  /*font-family: "le-monde-livre-classic-byol";*/
+  font-style: normal;
+  font-weight:300;
+  font-size:2.18vw;
+  display:block;
+  white-space:nowrap;
+  color:#6795bf;
+  margin-top:-40%;
+
+}
+
+#emailme {
+  /*font-family: "Sentinel SSm A", "Sentinel SSm B";
+  font-family:  "Mercury SSm A", "Mercury SSm B";*/
+  font-family: ".tk-garamond-premier-pro-display";
+  /*font-family: "le-monde-livre-classic-byol";*/
+  font-style: normal;
+  font-weight:300;
+  font-size:4.35vw;
+  display:block;
+  white-space:nowrap;
+  color:#a37c17;
+  margin-top:-151%;
+  margin-bottom:0;
+  text-decoration:none;
+}
+
+
+#headcont:hover {
+    cursor:pointer !important;
+  }
+
+#headcont {
+  background-color:transparent;
+  border: none;
+  outline: none;
+  padding:none;
+  font-family: "Gotham A" "Gotham B";
+  font-style: normal;
+  font-weight: lighter;
+  font-size:7.6vw;
+  color:#fff;
+  margin-top:-88%;
+  margin-bottom: 0;
+  margin-left:-10%;
+  width:100%;
+  padding:0;
+}
+
+@media only screen
+  and (max-width: 768px){
+    #headcont {
+      font-size:11.98vw;
+      font-style: normal;
+      font-weight: 100;
+      margin-top:-26%;
+      margin-left:-9%;
+    }
+}
+
+p {
+  margin:0;
+  padding:0;
+}
+
+#punto {
+  color:#a37c17 !important;
+}
+
+#about {
+  /*font-family: "Sentinel SSm A", "Sentinel SSm B";
+  font-family:  "Mercury SSm A", "Mercury SSm B";*/
+  font-family: ".tk-garamond-premier-pro-display";
+  /*font-family: "le-monde-livre-classic-byol";*/
+  font-style: normal;
+  font-weight:300;
+  font-size:1.8vw;
+  display:block;
+  color:#6795bf;
+  padding-left:1%;
+  margin-top:-280%;
+  margin-bottom: 0;
+  padding:0;
+  text-align:justify;
+
+}
+
+@media only screen
+  and (max-width: 768px){
+    #about {
+      font-size:4vw;
+    }
+  }
+
+.hidden {
+  opacity:0;
+  z-index:-1;
+  position:relative;
+}
+
+.emaildot {
+  z-index:2;
+}
+
+/*animations*/
+
+.animate {
+  -webkit-animation-name: slideup; /* Chrome, Safari, Opera */
+  -webkit-animation-duration: 2s; /* Chrome, Safari, Opera */
+  animation-name: slideup;
+  animation-fill-mode:forwards;
+  animation-duration: 2s;
+
+}
+
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes slideup {
+     0% {margin-top:-88%;}
+    100% {margin-top:-1075%;}
+
+}
+
+/* Standard syntax */
+@keyframes slideup {
+     0% {margin-top:-88%;}
+    100% {margin-top:-1075%;}
+
+}
+
+#about.appear {
+  -webkit-animation-name: appear; /* Chrome, Safari, Opera */
+  -webkit-animation-duration: 2s; /* Chrome, Safari, Opera */
+  animation-name: appear;
+  animation-fill-mode:forwards;
+  animation-duration: 2s;
+
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes appear {
+    0% {opacity:0; margin-top:-280%;}
+    100% {opacity:1; margin-top:-98%;}
+
+}
+
+/* Standard syntax */
+@keyframes appear {
+    0% {opacity:0; margin-top:-280%;}
+    100% {opacity:1; margin-top:-98%;}
+
+}
+
+@media only screen
+  and (max-width: 768px){
+    #about.appear {
+  -webkit-animation-name: appear; /* Chrome, Safari, Opera */
+  -webkit-animation-duration: 2s; /* Chrome, Safari, Opera */
+  animation-name: appear;
+  animation-fill-mode:forwards;
+  animation-duration: 2s;
+
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes appear {
+    0% {opacity:0; margin-top:-280%;}
+    100% {opacity:1; margin-top:-98%;}
+
+}
+
+/* Standard syntax */
+@keyframes appear {
+    0% {opacity:0; margin-top:-280%;}
+    100% {opacity:1; margin-top:-98%;}
+
+}
+  }
+
+
+.disappear.none{
+ -webkit-animation-name: dotfadeone; /* Chrome, Safari, Opera */
+  -webkit-animation-duration: 1s; /* Chrome, Safari, Opera */
+  animation-name: dotfadeone;
+  animation-fill-mode:forwards;
+  animation-duration: 1s;
+
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes dotfadeone {
+    0% {transform: scaleX(1.00) scaleY(1.00); }
+    33% {transform: scaleX(0.00) scaleY(0.00);}
+    100% {transform: scaleX(0.00) scaleY(0.00);}
+
+}
+
+/* Standard syntax */
+@keyframes dotfadeone {
+    0% {transform: scaleX(1.00) scaleY(1.00); }
+    33% {transform: scaleX(0.00) scaleY(0.00);}
+    100% {transform: scaleX(0.00) scaleY(0.00);}
+
+}
+
+.disappeartwo.none{
+ -webkit-animation-name: dotfadetwo; /* Chrome, Safari, Opera */
+  -webkit-animation-duration: 1s; /* Chrome, Safari, Opera */
+  animation-name: dotfadetwo;
+  animation-fill-mode:forwards;
+  animation-duration: 1s;
+
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes dotfadetwo {
+    0% {transform: scaleX(1.00) scaleY(1.00); }
+    33% {transform: scaleX(1.00) scaleY(1.00);}
+    66% {transform: scaleX(0.00) scaleY(0.00);}
+    100% {transform: scaleX(0.00) scaleY(0.00);}
+
+}
+
+/* Standard syntax */
+@keyframes dotfadetwo {
+    0% {transform: scaleX(1.00) scaleY(1.00); }
+    33% {transform: scaleX(1.00) scaleY(1.00);}
+    66% {transform: scaleX(0.00) scaleY(0.00);}
+    100% {transform: scaleX(0.00) scaleY(0.00);}
+
+}
+
+.disappearthree.none{
+ -webkit-animation-name: dotfadethree; /* Chrome, Safari, Opera */
+  -webkit-animation-duration: 1s; /* Chrome, Safari, Opera */
+  animation-name: dotfadethree;
+  animation-fill-mode:forwards;
+  animation-duration: 1s;
+
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes dotfadethree {
+    0% {transform: scaleX(1.00) scaleY(1.00); }
+    33% {transform: scaleX(1.00) scaleY(1.00);}
+    66% {transform: scaleX(1.00) scaleY(1.00);}
+    100% {transform: scaleX(0.00) scaleY(0.00);}
+
+}
+
+/* Standard syntax */
+@keyframes dotfadethree {
+    0% {transform: scaleX(1.00) scaleY(1.00); }
+    33% {transform: scaleX(1.00) scaleY(1.00);}
+    66% {transform: scaleX(1.00) scaleY(1.00);}
+    100% {transform: scaleX(0.00) scaleY(0.00);}
+
+}
+
+.comingdot.gone{
+ -webkit-animation-name: dotfadecome; /* Chrome, Safari, Opera */
+  -webkit-animation-duration: 1s; /* Chrome, Safari, Opera */
+  animation-name: dotfadecome;
+  animation-fill-mode:forwards;
+  animation-duration: 1s;
+
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes dotfadecome {
+    0% {transform: scaleX(1.00) scaleY(1.00); }
+    100% {transform: scaleX(0.00) scaleY(0.00);}
+
+}
+
+/* Standard syntax */
+@keyframes dotfadecome {
+    0% {transform: scaleX(1.00) scaleY(1.00); }
+    100% {transform: scaleX(0.00) scaleY(0.00);}
+
+}
+
+.emaildot.gone{
+ -webkit-animation-name: dotfadeemail; /* Chrome, Safari, Opera */
+  -webkit-animation-duration: 3s; /* Chrome, Safari, Opera */
+  animation-name: dotfadeemail;
+  animation-fill-mode:forwards;
+  animation-duration: 3s;
+
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes dotfadeemail {
+    0% {transform: scaleX(1.00) scaleY(1.00); z-index:2; }
+    25% {transform: scaleX(1.00) scaleY(1.00); z-index:1; }
+    50% {transform: scaleX(0.00) scaleY(0.00); z-index:0; }
+    100% {transform: scaleX(0.00) scaleY(0.00); z-index:-2; }
+
+}
+
+/* Standard syntax */
+@keyframes dotfadeemail {
+    0% {transform: scaleX(1.00) scaleY(1.00); z-index:2; }
+    25% {transform: scaleX(1.00) scaleY(1.00); z-index:1; }
+    50% {transform: scaleX(0.00) scaleY(0.00); z-index:0; }
+    100% {transform: scaleX(0.00) scaleY(0.00); z-index:-2; }
+}
+
+
+
+#construction.reveal {
+  -webkit-animation-name: reveal; /* Chrome, Safari, Opera */
+  -webkit-animation-duration: 3s; /* Chrome, Safari, Opera */
+  animation-name: reveal;
+  animation-fill-mode:forwards;
+  animation-duration: 3s;
+
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes reveal {
+    0% {opacity:0;}
+    25% {opacity:0;}
+    50% {opacity:1;}
+    100% {opacity:1;}
+
+}
+
+/* Standard syntax */
+@keyframes reveal {
+    0% {opacity:0;}
+    25% {opacity:0;}
+    50% {opacity:1;}
+    100% {opacity:1;}
+
+}
+
+#meantime.meanreveal {
+  -webkit-animation-name: meanreveal; /* Chrome, Safari, Opera */
+  -webkit-animation-duration: 3s; /* Chrome, Safari, Opera */
+  animation-name: meanreveal;
+  animation-fill-mode:forwards;
+  animation-duration: 3s;
+
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes meanreveal {
+    0% {opacity:0;}
+    25% {opacity:0;}
+    50% {opacity:0;}
+    75% {opacity:1;}
+    100% {opacity:1;}
+
+}
+
+/* Standard syntax */
+@keyframes meanreveal {
+    0% {opacity:0;}
+    25% {opacity:0;}
+    50% {opacity:0;}
+    75% {opacity:1;}
+    100% {opacity:1;}
+
+}
+
+#emailme.ereveal {
+  -webkit-animation-name: ereveal; /* Chrome, Safari, Opera */
+  -webkit-animation-duration: 3s; /* Chrome, Safari, Opera */
+  animation-name: ereveal;
+  animation-fill-mode:forwards;
+  animation-duration: 3s;
+
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes ereveal {
+    0% {opacity:0; z-index:-1;}
+    25% {opacity:0;}
+    50% {opacity:0;}
+    75% {opacity:0;}
+    100% {opacity:1; z-index:2;}
+
+}
+
+/* Standard syntax */
+@keyframes ereveal {
+    0% {opacity:0;}
+    25% {opacity:0;}
+    50% {opacity:0;}
+    75% {opacity:0;}
+    100% {opacity:1; z-index:2;}
+
+}
+
+

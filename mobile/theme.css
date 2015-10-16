@@ -1,0 +1,164 @@
+ @font-face {
+  font-family: "gotham-light";
+  font-style: normal;
+  font-weight: normal;
+  src: url("gotham-light.eot.eot?#iefix") format("embedded-opentype"), url("gotham-light.eot.woff2") format("woff2"), url("gotham-light.eot.woff") format("woff"), url("gotham-light.eot.ttf") format("truetype"), url("gotham-light.eot.svg#gotham-light") format("svg");
+}
+
+body {
+    background-color:#292e63;
+    width:100%;
+    margin:0;
+    padding:0;
+  }
+
+.dots {
+  	width: 100%;
+  	margin-top: 4%;
+    margin-bottom: 4%;
+  	padding: 0;
+  }
+
+.circle {
+  	border-radius: 51%;
+    width: 100%;
+    padding-bottom: 100%;
+  	margin-top:38%;
+  	margin-bottom:38%;
+  }
+
+
+.white {
+  	background-color:#ffffff;
+
+  }
+
+.lb {
+  	background-color:#6795bf;
+
+
+  }
+
+.blue {
+  	background-color:#3053a0;
+  }
+
+.pink {
+  	background-color:#901b72;
+  	}
+
+.gold {
+	background-color:#a37c17;
+  	}
+
+.black {
+  	background-color:#000000;
+  	}
+
+.polymetisman {
+    padding-top:18%;
+    padding-bottom:18%;
+    padding-right:18%;
+    padding-left:6%;
+    margin-top:46%;
+    margin-bottom:20%;
+}
+
+#metisman {
+    max-width:100%;
+  }
+
+#headcont {
+  background-color:transparent;
+  border: none;
+  outline: none;
+  padding:none;
+  font-family: "Gotham A" "Gotham B";
+  font-style: normal;
+  font-weight: lighter;
+  font-size:11.6vw;
+  color:#fff;
+  margin-bottom: 5%;
+  width:100%;
+  
+}
+
+p {
+  margin:0;
+  padding:0;
+}
+
+#punto {
+  color:#a37c17 !important;
+}
+
+#about {
+  /*font-family: "Sentinel SSm A", "Sentinel SSm B";
+  font-family:  "Mercury SSm A", "Mercury SSm B";*/
+  font-family: ".tk-garamond-premier-pro-display";
+  /*font-family: "le-monde-livre-classic-byol";*/
+  font-style: normal;
+  font-weight:300;
+  font-size:4.8vw;
+  display:block;
+  color:#6795bf;
+  padding-left:1%;
+  margin-bottom: 69%;
+  padding:0;
+  text-align:justify;
+
+}
+
+#construction {
+  font-family: "Gotham A" "Gotham B";
+  font-style: normal;
+  font-weight: normal;
+  font-size:12.2vw;
+  letter-spacing:0.06vw;
+  color:#fff;
+  padding:0;
+  line-height:11.9vw;
+  white-space:nowrap;
+  display:block;
+
+
+}
+
+#meantime {
+  /*font-family: "Sentinel SSm A", "Sentinel SSm B";
+  font-family:  "Mercury SSm A", "Mercury SSm B";*/
+  font-family: ".tk-garamond-premier-pro-display";
+  /*font-family: "le-monde-livre-classic-byol";*/
+  font-style: normal;
+  font-weight:300;
+  font-size:5.18vw;
+  display:block;
+  white-space:nowrap;
+  line-height:4.9vw;
+  margin-top:-8.2%;
+  color:#6795bf;
+
+}
+
+#emailme {
+  /*font-family: "Sentinel SSm A", "Sentinel SSm B";
+  font-family:  "Mercury SSm A", "Mercury SSm B";*/
+  font-family: ".tk-garamond-premier-pro-display";
+  /*font-family: "le-monde-livre-classic-byol";*/
+  font-style: normal;
+  font-weight:300;
+  font-size:11.15vw;
+  display:block;
+  white-space:nowrap;
+  color:#a37c17;
+  margin-top:-4.4%;
+  margin-bottom:0;
+  text-decoration:none;
+}
+
+.polymetismansmall {
+    
+    margin-bottom:20%;
+}
+
+
